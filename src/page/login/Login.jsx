@@ -1,6 +1,5 @@
 import React from 'react';
 import './login.css';
-import { CiUser, CiLock } from 'react-icons/ci';
 import { FaUser ,FaLock } from "react-icons/fa";
 
 const Login = () => {
@@ -9,12 +8,8 @@ const Login = () => {
       <div className='background'></div>
       <div className='overlay'></div> 
 
-      <div className='heading-continer' style={{
-       
-        
-
-      }}>
-       <h1 style={{color:'white',fontWeight:300,fontSize:'45px',fontStretch:'expanded',letterSpacing: '10px'}}> SLIDE LOGIN FORM</h1>
+      <div className='heading-continer' >
+       <h1 className='heading1' > SLIDE LOGIN FORM</h1>
       </div>
       
       <div className="container">
@@ -90,17 +85,17 @@ const Login = () => {
             <div style={{ display: 'flex', alignItems:'center',gap:'20px', fontSize: '17px', lineHeight: '16px', marginTop: '10px' }}>
           <p style={{color:'white'}}>Or Login Using :</p>
 
-          <a href="#" style={{ color: 'white', textDecoration: 'none' }}>
-          <img src='https://cdn-icons-png.freepik.com/256/15707/15707884.png?semt=ais_hybrid' style={{
-                width:'30px',
-                height:'30px',
-                borderRadius:'30px'
+          <a href="#" style={{ color: 'white', textDecoration: 'none', }}>
+          <img src='/assets/face.png' style={{
+                width:'28px',
+                height:'28px',
+                borderRadius:'28px',
                }} />
                </a>
 
 
 <a href="#" style={{ color: 'white', textDecoration: 'none' }}>
-          <img src='https://cdn-icons-png.flaticon.com/512/124/124021.png' style={{
+          <img src='https://cdn3.iconfinder.com/data/icons/basicolor-reading-writing/24/077_twitter-512.png' style={{
                           width:'30px',
                           height:'30px',
                           borderRadius:'30px'
@@ -108,7 +103,7 @@ const Login = () => {
                 </a>
 
 <a href="#" style={{ color: 'white', textDecoration: 'none' }}>
-          <img src='https://cdn-icons-png.flaticon.com/512/145/145804.png' style={{
+          <img src='/assets/gmail.png' style={{
                           width:'30px',
                           height:'30px',
                           borderRadius:'30px'
